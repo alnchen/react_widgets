@@ -1,0 +1,51 @@
+body {
+  font-family: 'BioRhyme', serif;
+
+}
+
+.calendar {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  /*border: 3px solid white;*/
+  margin: 0 10px 10px 10px;
+  width: 500px;
+  height: 200px;
+  /*padding: 5px;*/
+  background-image: url(http://wallpaperpulse.com/img/2324347.jpg);
+  background-size: cover;
+  padding: 45px 0 0 0;
+}
+
+.calendar p {
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather {
+  width: 500px;
+  height: 40px;
+  font-size: 24px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0 10px;
+  /*border: 3px solid*/
+  background-image: url(http://wallpaperpulse.com/img/2324347.jpg);
+  background-size: cover;
+}
+
+.weather:hover {
+  color: red;
+}
+
+.nameMatches {
+  width: 250px;
+  font-size: 20px;
+}
+
+.nameSearch {
+  width: 250px;
+  height:50px;
+  font-size: 35px;
+}
