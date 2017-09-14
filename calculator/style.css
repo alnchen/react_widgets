@@ -1,0 +1,18 @@
+#alert {
+  width: 30vw;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: large;
+  font-family: sans-serif;
+  border: 2px solid red;
+
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+body {
+  /*background-color: white;*/
+}
